@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+            <img class="logo" src="images/YT.jpg">
+        </div>
+        <div class="search-box">
+            <input type="text" class="search-bar" placeholder="search">
+            <button class="search-btn">
+                <img src="images/search.jpg">
+            </button>
+        </div>
+
+        <div class="user-options">
+            <img src="images/video.PNG" class="icon" alt="video">
+            <img src="images/grid.PNG" class="icon" alt="grid">
+            <img src="images/bell.PNG" class="icon" alt="bell">
+
+            <div class="user-dp">
+                <img src="images/profile-pic.png">
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Designing Side-Bar -->
+
+    <div class="side-bar">
+        <a href="#" class="links active"><img src="images/home.png">Home</a>
+        <a href="#" class="links"><img src="images/explore.png">Explore</a>
+        <a href="#" class="links"><img src="images/subscription.png">Subscription</a>
+
+        <hr class="seperator">
+        <a href="#" class="links"><img src="images/library.png">Library</a>
+        <a href="#" class="links"><img src="images/history.png">History</a>
+        <a href="#" class="links"><img src="images/your-video.png">Your Videos</a>
+        <a href="#" class="links"><img src="images/watch-later.png">Watch Later</a>
+        <a href="#" class="links"><img src="images/liked video.png">Liked Videos</a>
+        <a href="#" class="links"><img src="images/show more.png">Show More</a>
+    </div>
+
+
+    <div class="filters">
+        <button class="filter-options active">All</button>
+        <button class="filter-options" onclick="music()">Music</button>
+        <button class="filter-options" onclick="trending()">Trending</button>
+        <button class="filter-options" onclick="wd()">Web Development</button>
+        <button class="filter-options" onclick="ad()">App Development</button>
+        <button class="filter-options" onclick="react()">React JS</button>
+        <button class="filter-options" onclick="ml()">Machine Learning</button>
+        <button class="filter-options" onclick="politics()">Politics</button>
+        <button class="filter-options" onclick="gaming()">Gaming</button>
+        <button class="filter-options" onclick="coding()">Coding</button>
+    </div>
+
+    <div class="video-container">
+        <!-- <div class="video">
+            <img src="images/profile-pic.png" class="thumbnail">
+            <div class="content">
+                <img src="images/profile-pic.png" alt="" class="channel-icon">
+                <div class="info">
+                    <h4 class="title">Welcome to the mini Goa...ALibag</h4>
+                    <p class="channel-name">Travel Kida</p>
+                </div>
+            </div>
+        </div> -->
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
